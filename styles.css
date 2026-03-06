@@ -8,9 +8,17 @@ html {
     font-family: system-ui, -apple-system, sans-serif;
   }
   
-  /* Hero section gradient */
+  /* Hero section with background image and overlay */
   .hero-section {
-    background: radial-gradient(circle at center, #1a1a1a 0%, #000000 80%);
+    background: url('hero.jpg') top center / cover no-repeat;
+    position: relative;
+    color: white;
+  }
+  
+  /* Subtle text shadows for readability */
+  .hero-section h1, 
+  .hero-section p {
+    text-shadow: 0 4px 12px rgba(0,0,0,0.6);
   }
   
   /* Cards hover effect */
@@ -22,3 +30,5 @@ html {
     transform: translateY(-6px);
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
   }
+  
+  /* Responsive adjustments already handled via Tailwind classes */
