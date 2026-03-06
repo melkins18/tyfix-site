@@ -1,12 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tyfix</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Tyfix Auto Sales | Used Vehicles</title>
+  <meta name="description" content="Tyfix Auto Sales. Used vehicles sold AS-IS. First come first served. Bring your own mechanic. Serious buyers only.">
+  <meta name="theme-color" content="#000000">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Tyfix Auto Sales">
+  <meta property="og:description" content="Used vehicles sold AS-IS. No holds. No deposits. Serious buyers only.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://tyfixautosales.com">
+  <meta property="og:image" content="https://tyfixautosales.com/preview.jpg">
+
+  <!-- Twitter Preview -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Tyfix Auto Sales">
+  <meta name="twitter:description" content="Used vehicles sold AS-IS. First come first served.">
+  <meta name="twitter:image" content="https://tyfixautosales.com/preview.jpg">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png">
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- AOS Animation Library -->
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-    
+
+<body class="bg-neutral-950 text-white">
+
+  <!-- HERO -->
+  <section class="hero-section h-screen flex items-center justify-center text-center px-6">
+    <div>
+      <h1 class="text-5xl md:text-7xl font-bold mb-6">
+        TYFIX PRIVATE AUTO SALES
+      </h1>
+      <p class="text-xl text-gray-300 mb-8">
+        Quality Used Vehicles • Straightforward Deals
+      </p>
+      <a href="#rules" class="bg-red-600 hover:bg-red-700 px-8 py-4 rounded-lg text-lg font-semibold transition">
+        View Buying Rules
+      </a>
+    </div>
+  </section>
+
+  <!-- RULES -->
+  <section id="rules" class="py-24 px-6 max-w-5xl mx-auto">
+    <h2 class="text-4xl font-bold text-center mb-16">
+      How Buying Works
+    </h2>
+
+    <div class="grid md:grid-cols-2 gap-10">
+      <div data-aos="fade-up" class="bg-neutral-900 p-8 rounded-xl card">
+        <h3 class="text-2xl font-bold mb-4 text-red-500">AS-IS SALE</h3>
+        <p>All vehicles sold AS-IS. No warranties or guarantees. Bring your own mechanic and inspect before purchase.</p>
+      </div>
+
+      <div data-aos="fade-up" class="bg-neutral-900 p-8 rounded-xl card">
+        <h3 class="text-2xl font-bold mb-4 text-red-500">NO REFUNDS</h3>
+        <p>All sales are final. No returns or exchanges.</p>
+      </div>
+
+      <div data-aos="fade-up" class="bg-neutral-900 p-8 rounded-xl card">
+        <h3 class="text-2xl font-bold mb-4 text-red-500">FIRST COME</h3>
+        <p>No holds. No deposits. Vehicles sold to whoever arrives ready to buy.</p>
+      </div>
+
+      <div data-aos="fade-up" class="bg-neutral-900 p-8 rounded-xl card">
+        <h3 class="text-2xl font-bold mb-4 text-red-500">PAYMENT</h3>
+        <p>Full payment required before vehicle release.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- REQUIREMENTS -->
+  <section class="py-24 bg-neutral-900 px-6">
+    <div class="max-w-4xl mx-auto text-center">
+      <h2 class="text-4xl font-bold mb-10">
+        Buying Requirements
+      </h2>
+      <ul class="text-lg space-y-4 text-gray-300">
+        <li>Valid government-issued ID required</li>
+        <li>No license required to purchase</li>
+        <li>Bill of sale must be signed</li>
+        <li>License plates sold separately</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="py-24 px-6 text-center">
+    <h2 class="text-4xl font-bold mb-6">
+      Ready To Buy or Sell?
+    </h2>
+    <p class="text-gray-400 mb-10">
+      Serious buyers and sellers only. DM Tyfix on Instagram.
+    </p>
+    <a href="https://instagram.com" class="bg-red-600 hover:bg-red-700 px-10 py-5 rounded-lg text-xl font-semibold transition">
+      DM On Instagram
+    </a>
+  </section>
+
+  <!-- AOS Script -->
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+  <!-- External JS -->
+  <script src="script.js"></script>
+
 </body>
 </html>
